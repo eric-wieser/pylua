@@ -119,8 +119,7 @@ type_ = {
 	__repr__ = function(t)
 		return ("<class '%s'>"):format(t.__name__)
 	end,
-	__init__ = function() end,
-	exec = "CRAP"
+	__init__ = function() end
 }
 class = setmetatable({}, {
 	__call = function(_, name, implementer, baseclasses)
